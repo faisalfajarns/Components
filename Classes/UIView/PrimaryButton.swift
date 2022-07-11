@@ -16,6 +16,7 @@ public class PrimaryButton: UIButton {
         self.titleLabel?.textColor = .white
         self.widthAnchor.constraint(equalToConstant: 120).isActive = true
         self.heightAnchor.constraint(equalToConstant: 130).isActive = true
+        self.translatesAutoresizingMaskIntoConstraints = false
     }
     
     required init?(coder: NSCoder) {
